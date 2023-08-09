@@ -53,7 +53,7 @@ public class LoginSteps extends CommonMethods {
 
     @Then("user is successfully logged in the application")
     public void user_is_successfully_logged_in_the_application() {
-        System.out.println("test case passed");
+       Assert.assertTrue(false);
     }
 
     @When("user enters ess username and password")
